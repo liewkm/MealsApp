@@ -1,4 +1,4 @@
-class Meal (
+class Meal {
     constructor (
         id,
         categoryIds,
@@ -13,9 +13,11 @@ class Meal (
         isVegan,
         isVegetarian,
         isLactoseFree
-    ) {
+     ) {
+        this.id = id;
 
     }
-)
+}
+
 
 export default Meal;
